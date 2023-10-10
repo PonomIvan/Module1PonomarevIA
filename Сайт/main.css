@@ -1,0 +1,38 @@
+
+.center {
+	margin-left: 25%;
+	margin-right: 40%;
+}
+.cards {
+	border: 3px;
+	border-color: blue;
+	border-style: solid;
+	border-radius:15px;
+	box-shadow: 0 0 20px;
+	padding: 5px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	max-width: 300px;
+	min-height: 300px;
+	max-height: 300px;
+}
+.imagejavacore {
+	align-items: center;
+	margin-left:55px;
+}
+.imagemssql {
+	align-items: center;
+	margin-left: 50px;
+}
+.content_cards{
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	flex-wrap:wrap;
+	justify-content:space-evenly;
+}
+@media screen and (max-width:450px){
+	.center{
+		display:none;
+	}
+}
