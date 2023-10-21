@@ -16,11 +16,22 @@
 	min-height: 300px;
 	max-height: 300px;
 }
+.mainimage {
+	width: 400px;
+	height:444px;
+}
+.blocksfontsize{
+	font-size:12px;
+}
 .imagejavacore {
 	align-items: center;
-	margin-left:55px;
+	margin-left: 55px;
+	width:	200px;
+	height: 125px;
 }
 .imagemssql {
+	width: 200px; 
+	height: 100px;
 	align-items: center;
 	margin-left: 50px;
 }
@@ -31,6 +42,7 @@
 	flex-wrap:wrap;
 	justify-content:space-evenly;
 }
+
 @media screen and (max-width:450px){
 	.center{
 		display:none;
